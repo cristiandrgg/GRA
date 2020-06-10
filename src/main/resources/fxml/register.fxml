@@ -7,7 +7,7 @@
 <?import java.net.URL?>
 <GridPane xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10" prefWidth="1600" prefHeight="1000"
           xmlns="http://javafx.com/javafx"
-          fx:controller="controllers.RegisterController"
+          fx:controller="controllers.Register"
           styleClass="root-pane">
     <padding>
         <Insets bottom="25.0" left="25.0" right="25.0" top="25.0"/>
