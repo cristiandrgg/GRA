@@ -13,7 +13,7 @@ public class JavaFxMainClass extends Application {
     public void start(Stage primaryStage) throws Exception {
 
 
-        Parent root = FXMLLoadeoad(getClass().getResource("fxml/login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("fxml/login.fxml"));
         primaryStage.setTitle("GRA - Game Store");
         primaryStage.setScene(new Scene(root, 1600, 1000));
         primaryStage.show();
