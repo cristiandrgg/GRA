@@ -126,7 +126,7 @@ public class DevScreen {
         scene_add=new Scene(grid, 1200, 800);
 
         try {
-            FileInputStream input_img_add = new FileInputStream("src/main/resources/images/addgametime.jpg");
+            FileInputStream input_img_add = new FileInputStream("src/main/resources/images/addgametime.jpeg");
             Image image_add = new Image(input_img_add);
             BackgroundImage bgi_add=new BackgroundImage(image_add,
                     BackgroundRepeat.NO_REPEAT,
@@ -246,7 +246,7 @@ public class DevScreen {
         scene_view=new Scene(layout_view, 1600, 1200);
 
         try {
-            FileInputStream input_view = new FileInputStream("src/main/resources/images/viewgamestime.jpeg");
+            FileInputStream input_view = new FileInputStream("src/main/resources/images/viewgamestime.jpg");
             Image image_view = new Image(input_view);
             BackgroundImage bgi_view=new BackgroundImage(image_view,
                     BackgroundRepeat.NO_REPEAT,
